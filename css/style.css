@@ -1,0 +1,493 @@
+@font-face {
+	font-family: HVD-Fonts-BrandonText-Light ;
+	src: url(../fonts/HVD-Fonts-BrandonText-Light.ttf);
+}
+@font-face {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	src: url(../fonts/HVD-Fonts-BrandonText-Bold.ttf);
+}
+@font-face {
+	font-family: HVD-Fonts-BrandonText-Medium ;
+	src: url(../fonts/HVD-Fonts-BrandonText-Medium.ttf);
+}
+@font-face {
+	font-family: HVD-Fonts-BrandonText-Regular ;
+	src: url(../fonts/HVD-Fonts-BrandonText-Regular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: HVD-Fonts-BrandonText-Regular;
+}
+/*header start*/
+header {
+	background-image: url(../image/banner-tint.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*min-height: 300px;*/
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	/*border: 3px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+	/*border: 2px solid green;*/
+	margin-top: 34px;
+}
+
+.logo img {
+	/*border: 2px solid yellow;*/
+	width: 70%;
+	margin-left: 20px;
+}
+.menu {
+	width: 60%;
+	float: right;
+	/*border: 2px solid black;*/
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 42px 28px;
+	color: white;
+	font-family: HVD-Fonts-BrandonText-Medium ;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #844F61;
+}
+.t-area {
+	color: white;
+	/*border: 2px solid red;*/
+	margin-top: 185px;
+	text-align: center;
+	/*font-family: HVD-Fonts-BrandonText-Light ;*/
+}
+.t-area p {
+	font-family: HVD-Fonts-BrandonText-Light ;
+	font-size: 32px;
+}
+.t-area h1 {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 66px;
+	margin-top: 15px;
+}
+.t-area button {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 23px;
+	background: transparent;
+	border: none;
+	border: 2px solid white;
+	color: white;
+	padding: 15px 50px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.t-area button:hover {
+	border: 2px solid #92233B;
+}
+/*header end*/
+/*service start*/
+.development-part {}
+.develop {
+	padding: 80px 40px;
+}
+.develop-content {
+	width: 65%;
+	float: left;
+}
+.develop-content h1 {
+	font-family: HVD-Fonts-BrandonText-Light ;
+	font-size: 60px;
+	font-weight: 300;
+}
+.develop-content h1 span{
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 60px;
+}
+.develop-content p {
+	color: #777777;
+	font-size: 18px;
+	margin: 26px 0;
+}
+.image1 {
+	/*border: 2px solid red;*/
+	width: 20%;
+	float: right;
+	margin-top: 50px;
+}
+.image1 img {
+	width: 100%;
+}
+.identity-part {
+	background-color: #fafafa;
+	margin: 60px 0;
+}
+.identity {
+	padding: 80px 40px;
+}
+.identity-content {
+	width: 65%;
+	float: right;
+}
+.identity-content h1{
+	font-family: HVD-Fonts-BrandonText-Light ;
+	font-size: 60px;
+	font-weight: 300;
+}
+.identity-content h1 span{
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 60px;
+}
+.identity-content p{
+	color: #777777;
+	font-size: 18px;
+	margin: 26px 0;
+}
+.image2 {
+	/*border: 2px solid red;*/
+	width: 20%;
+	float: left;
+	margin-top: 50px;
+}
+.image2 img {
+	width: 100%;
+}
+/*service end*/
+/*block start*/
+.block {
+	padding: 80px 0;
+}
+.block-content {}
+.single {
+	width: 45%;
+	float: left;
+	margin-right: 8%;
+	margin-bottom: 30px;
+}
+.single:nth-child(even) {
+	margin-right: 0;
+}
+.image3 {
+	width: 15%;
+	/*border: 2px solid blue;*/
+	margin-top: 25px;
+	margin-left: 15px;
+	float: left;
+}
+.image3 img {
+	width: 100%;
+}
+.text {
+	width: 75%;
+	float: right;
+	/*border: 2px solid green;*/
+	margin-top: 17px;
+	
+}
+.text h3 {
+	font-family: HVD-Fonts-BrandonText-Medium;
+	font-size: 22px;
+}
+.text p {
+	font-size: 18px;
+	color: #777777;
+}
+/*block end*/
+/*feedback start*/
+.feedback {
+	padding: 70px 0;
+}
+.client-title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.client-title h1 {
+	font-family: HVD-Fonts-BrandonText-Light ;
+	font-size: 60px;
+	font-weight: 400;
+}
+.client-title h1 span {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 60px;
+}
+.client-title p {
+	font-size: 22px;
+	color: #777777;
+}
+.client1 {
+	/*border: 2px solid blue;*/
+	overflow: hidden;
+}
+.image4 {
+	/*border: 2px solid yellow;*/
+	width: 22%;
+	float: left;
+}
+.image4 img {
+	width: 100%;
+}
+.speech1 {
+	/*border: 2px solid green;*/
+	width: 58%;
+	float: right;
+	margin: 50px 50px 0 0;
+	font-size: 26px;
+	color: #777777;
+}
+.speech1 span {
+	font-size: 20px;
+	color: #7690c5;
+}
+.client2 {
+	/*border: 2px solid blue;*/
+	overflow: hidden;
+}
+.speech2 {
+	/*border: 2px solid green;*/
+	width: 54%;
+	float: left;
+	font-size: 26px;
+	color: #777777;
+	margin-top: 52px;
+	margin-left: 59px;
+}
+.speech2 span {
+	font-size: 20px;
+	color: #7690c5;
+}
+.image5 {
+	/*border: 2px solid yellow;*/
+	width: 22%;
+	float: right;
+}
+.image5 img {
+	width: 100%;
+}
+/*feedback end*/
+/*web logo start*/
+.web-logo {}
+.icon-pack {
+	text-align: center;
+	padding: 80px 0;
+}
+.icon-pack img{
+	margin-right: 45px;
+}
+.icon-pack img:last-child{
+	margin-right: 0;
+}
+/*web logo end*/
+/*team part start*/
+.team-part {
+	background-color: #111111;
+}
+.text2 {
+	text-align: center;
+}
+.text2 h1 {
+	font-family: HVD-Fonts-BrandonText-Light ; 
+	font-weight: 400;
+	font-size: 60px;
+	color: white;
+	margin-top: 55px;
+}
+.text2 h1 span {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+}
+.text2 p {
+	font-size: 22px;
+	color: #777777;
+}
+.content-team {
+	text-align: center;
+	overflow: hidden;
+	margin: 40px 0;
+}
+.single2 {
+	/*border: 2px solid green;*/
+	width: 31%;
+	float: left;
+	margin-right: 2%;
+}
+.single2:first-child {
+	margin-left: 10px;
+}
+.single2:last-child {
+	margin-right: 0;
+}
+.single2 h4 {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	margin-top: 10px;
+}
+.single2 p {
+	font-size: 16px;
+	font-weight: 300;
+	color: white;
+	margin-top: 7px;
+}
+.font-icon {
+	text-align: center;
+	margin-top: 16px;
+	clear: both;
+}
+.font-icon ul {}
+.font-icon ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 8px;
+}
+.font-icon ul li i {
+	border: 2px solid white;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	padding: 17px 20px;
+	
+}
+.font-icon ul li .fa-twitter {
+	padding: 10px 9px;
+	font-size: 30px;
+
+}
+.font-icon ul li  .fa-facebook-f {
+	padding: 10px 18px;
+	font-size: 30px;
+}
+
+.font-icon ul li .fa-pinterest-p {
+	padding: 9px 13px;
+	font-size: 30px;
+}
+.font-icon ul li .fa-google-plus-g {
+	padding: 9px 6px;
+	font-size: 30px;
+}
+.random-text {
+	text-align: center;
+}
+.random-text p{
+	font-weight: 300;
+	color: white;	
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+/*team part end*/
+/*info start*/
+.info {
+	background-color: #7690c5;
+	padding: 80px 0;
+}
+
+.content2 {}
+
+.contacts {
+	width: 50%;
+	float: left;
+}
+
+.intro-title {}
+.intro-title h1 {
+	font-family: HVD-Fonts-BrandonText-Light ;
+	font-weight: 300;
+	font-size: 60px;
+	color: white;
+}
+
+.intro-title h1 span {
+	font-family: HVD-Fonts-BrandonText-Bold ;
+}
+
+
+.intro-title p {
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+
+.social-site {
+	margin-top: 50px;
+}
+
+.contact-info {
+	width: 50%;
+	float: left;
+	margin-bottom: 35px;
+	overflow: hidden;
+	
+}
+.contact-info i {
+	width: 14%;
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+
+
+.contact-info p {
+	width: 74%;
+	color: white;
+	float: right;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.contact-details {
+	width: 40%;
+	float: right;
+	margin-top: 24px;
+}
+
+form input[type=text], form input[type=email], form textarea{
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    padding: 10px;
+    font-family: HVD-Fonts-BrandonText-Medium;
+    font-size: 18px;
+    color: #777777;
+}
+/*info end*/
+/*footer start*/
+footer {
+	background-color: #7690c5;
+	padding: 80px 0;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255,0));
+}
+.content3 p {
+	text-align: center;
+	color: white;
+	font-family: HVD-Fonts-BrandonText-Medium;
+	margin-top: 30px;
+}
+/*footer end*/
